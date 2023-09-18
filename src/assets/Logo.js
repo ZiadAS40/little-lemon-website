@@ -2,7 +2,7 @@ function Logo(){
     return (
         <>
         <div>
-            <img src='../icon_assets/logo.png'/>
+            <img src='../icons_assets/Logo.svg' alt = "logo image"/>
         </div>
         </>
     )
