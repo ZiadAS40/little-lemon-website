@@ -1,15 +1,26 @@
 
 import './App.css';
 import Header from './assets/Header'
-import Main from './assets/Main'
 import Footer from './assets/Footer'
+import HeroSection from './assets/HeroSection'
+import SpecialSection from './assets/SpicialSection'
+import RatingSection from './assets/RatingSection'
+import AboutSection from './assets/AboutSection'
+
 
 function App() {
   return (
   <>
+  <main>
+
   <Header/>
-  <Main/>
+  <HeroSection/>
+  <SpecialSection/>
+  <RatingSection/>
+  <AboutSection/>
   <Footer/>
+  </main>
+  
   </>
   );
 }
