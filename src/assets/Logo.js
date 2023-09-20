@@ -1,8 +1,11 @@
+import image from '../icons_assets/Logo.svg'
+
+
 function Logo(){
     return (
         <>
-        <div>
-            <img src='../icons_assets/Logo.svg' alt = "logo image"/>
+        <div className='the-logo-image'>
+            <img src={image} alt = "logo "/>
         </div>
         </>
     )

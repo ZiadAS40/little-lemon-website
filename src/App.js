@@ -11,9 +11,8 @@ import AboutSection from './assets/AboutSection'
 function App() {
   return (
   <>
-  <main>
-
-  <Header/>
+  <main >
+  <Header />
   <HeroSection/>
   <SpecialSection/>
   <RatingSection/>

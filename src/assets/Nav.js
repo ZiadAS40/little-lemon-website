@@ -2,7 +2,7 @@ function Nav(){
     let link ="https//:www.google.com" ;
     return(
         <>
-        <ul>
+        <ul className="navigation ">
             <li><a href ={link} key = {1} className="home">Home</a></li>
             <li><a href ={link} key = {2} className="about">About</a></li>
             <li><a  href ={link} key = {3} className="contact">contact</a></li>
